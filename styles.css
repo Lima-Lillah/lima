@@ -1,0 +1,258 @@
+/* General */
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  background: url("./img/login-background.jpg");
+  background-position: center;
+  background-size: cover;
+
+  
+}
+
+/*login page*/
+.login-box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ height: 100%;
+
+}
+.login-box {
+  border: 1px solid grey;
+  width: 400px;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+
+.login-box h1{
+  text-align: left;
+}
+
+
+.login-box a {
+  font-weight: bold;
+  color: black;
+}
+
+input[type="text"], input[type=password], input[type=email] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  width: 100%;
+  margin-bottom: 8px;
+}
+.primary-button {
+  color: white;
+  background-color: lightblue;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none ;
+
+}
+
+.secondary-button {
+color:  white;
+background-color:  #6e152a;
+padding: 10px 20px;
+text-decoration: none;
+
+
+
+}
+
+.form-actions {
+display: flex;
+justify-content: flex-end ;
+margin-top: 10px;
+
+}
+.login-button {
+  margin: auto;
+  display: block;
+
+}
+
+.login-box a {
+  color: black;
+  font-weight: bold;
+ ;
+}
+
+
+/*header*/
+header {
+  background-color: rebeccapurple;
+  padding: 15px;
+  text-align: center;
+  min-height: 40px;
+}  
+
+.header-action{
+float: right;
+margin-top: 12px;
+
+}
+
+.header-action .fa-solid{
+color: white;
+margin-right: 20px;
+ 
+}
+
+
+
+
+header .logo{
+text-decoration: none;
+font-size: 24px;
+color: yellow;
+font-family: "Pacifico", cursive;
+position: absolute;
+left: calc(50% - 35px); 
+}
+
+
+header a {
+  color: yellow;
+ text-decoration: none;
+}
+/* HOME */
+
+.home-main{
+  display: flex;
+  justify-content: center;
+ 
+}
+.timeline-containter{
+  background-color: white;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+}
+.lima-feed{
+flex-grow: 4;
+border-right: 1px solid grey;
+
+}
+.recent-users-feed {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+/*lima*/
+.lima{
+display: flex;
+border-bottom: 1px solid lightgrey;
+margin-bottom: 20px;
+padding-bottom: 10px;
+
+}
+
+.lima:last-child{
+border-bottom: none;
+margin-bottom: 0;
+padding-bottom: 0;
+}
+
+.lima .profile-pic{
+font-size: 50px;
+
+}
+.lima p{
+  margin-top: 0;
+  font-size: 16px;
+  margin-left: 25px;
+
+}
+
+.lima .matedata{
+font-size: 14px;
+color: gray;
+
+}
+
+/*new users*/
+
+.new-user {
+display: flex;
+align-items: center;
+
+}
+
+.new-user .profile-pic{
+  font-size: 30px;
+  margin-right: 20px;
+}
+.new-user p{
+ 
+  margin-top: 0;
+}
+
+/*post page*/
+
+.post-container{
+width: 100%;
+max-width: 500px;
+}
+
+.post-main{
+display: flex;
+justify-content: center;
+align-items: center ;
+
+}
+
+.post-container textarea{
+  width: 100%;
+  height: 120px;
+
+}
+
+/*profile page*/
+/*
+.profile-main{
+width: 500px;
+margin: auto;
+text-align: center;
+}
+*/
+
+.profile-view{
+max-width: 500px;
+margin: auto;
+width: 100%;
+display: flex;
+justify-items: center;
+flex-direction: column;
+align-items: center;
+}
+
+.profile-view .primary-button{
+  display: block;
+  margin-bottom: 20px;
+}
+
+.profile-main .user-profile-pic{
+  font-size: 200px;
+color: white ;
+margin: 30px 0;
+
+}
+
+.profile-main .lima-feed{
+background-color: white;
+text-align: left;
+padding: 20px;
+min-width: 500px;
+}
