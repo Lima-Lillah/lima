@@ -1,7 +1,7 @@
 create table follow(
-id int,
-personA int(255),
-personB int(255),
+id int NOT NULL AUTO_INCREMENT,
+personA int,
+personB int,
 PRIMARY KEY (id),
 FOREIGN KEY (personA) REFERENCES user(id),
 FOREIGN KEY (personB) REFERENCES user(id)
